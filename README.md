@@ -49,10 +49,6 @@ The plugin stops working automatically when the trial license expires. Licenses 
 **Flagged or blocked by antivirus?**
 The plugin is protected against cracking, which some antivirus software may falsely flag. Download only from Releases on this page and verify the SHA256 checksum of the zip (listed in each Release's notes); once confirmed, add the plugin folder to your antivirus trusted list.
 
-## Contact
-
-- Author: David-Lin
-- QQ: 29262520
 
 ## License Agreement
 
