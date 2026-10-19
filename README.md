@@ -47,7 +47,7 @@ The plugin stops working automatically when the trial license expires. Licenses 
 ## FAQ
 
 **Flagged or blocked by antivirus?**
-The plugin is protected against cracking, which some antivirus software may falsely flag. Download only from Releases on this page and verify the SHA256 checksum of the zip (listed in each Release's notes); once confirmed, add the plugin folder to your antivirus trusted list.
+Download only from Releases on this page and verify the SHA256 checksum of the zip (listed in each Release's notes); once confirmed, add the plugin folder to your antivirus trusted list.
 
 
 ## License Agreement
@@ -106,7 +106,7 @@ BPP 是一款 AutoCAD 批量打印插件：自动识别图纸中的图框，一�
 ## 常见问题
 
 **杀毒软件报毒 / 拦截？**
-插件为防止破解做了加密保护，部分杀毒软件可能误报。请从本页 Releases 下载，并核对压缩包的 SHA256 校验值(见每个 Release 的说明)；确认无误后可将插件文件夹加入杀毒软件信任列表。
+请从本页 Releases 下载，并核对压缩包的 SHA256 校验值(见每个 Release 的说明)；确认无误后可将插件文件夹加入杀毒软件信任列表。
 
 
 ## 使用协议
