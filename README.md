@@ -1,3 +1,65 @@
+# BPP Batch Plot Plugin (for AutoCAD 2027)
+
+[English](#bpp-batch-plot-plugin-for-autocad-2027) | [中文](#bpp-批量打印插件适用于-autocad-2027)
+
+BPP is a batch plotting plugin for AutoCAD. It automatically detects drawing frames, plots all sheets in model space and every layout in order to PDF, image files, or directly to a printer in one run, and can batch-process multiple DWG files at once.
+
+> This plugin is a third-party tool.
+
+## Features
+
+- **Frame detection**: supports block frames, TArch frames (polylines), rectangles on specified layers, and "All (smart recognition)" — frame library blocks + rectangles / four-line rectangles on any layer + layout viewports, with automatic sheet size detection (including extended sizes).
+- **Job list**: generates a list after scanning; check/uncheck, reorder, preview, and zoom to frames; automatically reads drawing number, title, revision, date, and other fields.
+- **Sort settings**: sort by drawing number / sheet position / title / project; 8 position directions + snake order; configurable sort base point, row/column tolerance, current UCS direction, and grouping by sheet size / block name / layer; optionally renumber drawings in the final order.
+- **Multi-document batch plot (BPPM)**: processes multiple DWG/DXF files at once, building a single plot list and plotting file by file.
+- **Output**: PDF, JPG/PNG (configurable DPI), DWF, and any printer; PDFs can be merged by all / same drawing number / same project / paper size; output can be saved in per-file folders as "source folder\PDF\document name".
+- **File naming and drawing index**: generates file names from naming rules; can insert a drawing index table into the drawing.
+- **Others**: plot stamp, extended sheets, automatic paper matching, rotate all to landscape/portrait (optionally keep A4 unrotated), Chinese/English UI switch (en/cn button in the title bar).
+
+## Requirements
+
+| Item | Requirement |
+|---|---|
+| AutoCAD | **AutoCAD 2027** (64-bit); vertical products built on the 2027 platform (Architecture, Mechanical, etc.) should work |
+| Not supported | AutoCAD 2026 and earlier, ZWCAD and other CAD platforms |
+| OS | Windows 10 / 11 64-bit |
+
+## Installation
+
+1. Download the latest `BPP-v*-AutoCAD2027.zip` from **Releases** on the right side of this page.
+2. Extract it to a permanent folder, e.g. `D:\CADPlugins\BPP\` (do not move it afterwards or copy only a single DLL — keep all files in the folder).
+3. Start AutoCAD 2027, type `NETLOAD`, and select `BPP.dll` in that folder.
+
+> On the first NETLOAD, Windows may warn that the file came from the internet: right-click `BPP.dll` → Properties → check "Unblock", then load it again.
+
+## License
+
+The plugin stops working automatically when the trial license expires. Licenses are bound to the machine; after changing computers or reinstalling Windows, request a new license with the new machine ID.
+
+## Commands
+
+| Command | Description |
+|---|---|
+| `BPP` | Open the batch plot main dialog |
+| `BPPMULTI` | Open multi-document batch plot |
+| `BPPRESET` | Reset plugin settings to defaults |
+
+## FAQ
+
+**Flagged or blocked by antivirus?**
+The plugin is protected against cracking, which some antivirus software may falsely flag. Download only from Releases on this page and verify the SHA256 checksum of the zip (listed in each Release's notes); once confirmed, add the plugin folder to your antivirus trusted list.
+
+## Contact
+
+- Author: David-Lin
+- QQ: 29262520
+
+## License Agreement
+
+By using this plugin you agree to the [License Agreement](使用协议.md) (bilingual; the English version follows the Chinese).
+
+---
+
 # BPP 批量打印插件（适用于 AutoCAD 2027）
 
 BPP 是一款 AutoCAD 批量打印插件：自动识别图纸中的图框，一次性把模型空间和各布局里的全部图纸按顺序打印成 PDF、图片或直接送打印机，并支持多个 DWG 文件一起批量处理。
