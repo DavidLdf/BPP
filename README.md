@@ -41,7 +41,7 @@ The plugin stops working automatically when the trial license expires. Licenses 
 | Command | Description |
 |---|---|
 | `BPP` | Open the batch plot main dialog |
-| `BPPMULTI` | Open multi-document batch plot |
+| `BPPM` | Open multi-document batch plot |
 | `BPPRESET` | Reset plugin settings to defaults |
 
 ## FAQ
