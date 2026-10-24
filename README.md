@@ -1,6 +1,7 @@
 # BPP Batch Plot Plugin (for AutoCAD 2027)
 
 [English](#bpp-batch-plot-plugin-for-autocad-2027) | [中文](#bpp-批量打印插件适用于-autocad-2027)
+Industry first: Smart multi-process background plotting
 
 BPP is a batch plotting plugin for AutoCAD. It automatically detects drawing frames, plots all sheets in model space and every layout in order to PDF, image files, or directly to a printer in one run, and can batch-process multiple DWG files at once.
 
@@ -57,6 +58,8 @@ By using this plugin you agree to the [License Agreement](使用协议.md) (bili
 ---
 
 # BPP 批量打印插件（适用于 AutoCAD 2027）
+
+全网首发功能：新增“智能多进程后台出图”
 
 BPP 是一款 AutoCAD 批量打印插件：自动识别图纸中的图框，一次性把模型空间和各布局里的全部图纸按顺序打印成 PDF、图片或直接送打印机，并支持多个 DWG 文件一起批量处理。
 
