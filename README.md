@@ -22,8 +22,6 @@ BPP is a batch plotting plugin for AutoCAD. It automatically detects drawing fra
 
 | Item | Requirement |
 |---|---|
-| AutoCAD | **AutoCAD 2027** (64-bit); vertical products built on the 2027 platform (Architecture, Mechanical, etc.) should work |
-| Not supported | AutoCAD 2026 and earlier, ZWCAD and other CAD platforms |
 | OS | Windows 10 / 11 64-bit |
 
 ## Installation
@@ -82,8 +80,6 @@ BPP 是一款 AutoCAD 批量打印插件：自动识别图纸中的图框，一�
 
 | 项目 | 要求 |
 |---|---|
-| AutoCAD | **AutoCAD 2027**(64 位)；基于 2027 平台的专业版(Architecture、Mechanical 等)理论上可用 |
-| 暂不支持 | AutoCAD 2026 及更早版本、中望 CAD 等其它 CAD 平台 |
 | 系统 | Windows 10 / 11 64 位 |
 
 ## 安装
