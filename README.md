@@ -1,6 +1,6 @@
-# BPP Batch Plot Plugin 批量打印插件 (for AutoCAD 2015-2027，中望 ZWCAD 2017-2026)
+# BPP Batch Plot Plugin 批量打印插件 (for AutoCAD 2015-2027，中望ZWCAD 2017-2026，浩辰GstarCAD 2017-2027)
 
-[English](#bpp-batch-plot-plugin-for-autocad-2027) | [中文](#bpp-批量打印插件适用于-autocad-2027)
+[English](#bpp-batch-plot-plugin-for-AutoCAD 2015-2027，ZWCAD 2017-2026，GstarCAD 2017-2027) | [中文](#bpp-批量打印插件适用于-AutoCAD 2015-2027，中望ZWCAD 2017-2026，浩辰GstarCAD 2017-2027)
 
 Industry first: Smart multi-process background plotting
 
@@ -26,11 +26,7 @@ BPP is a batch plotting plugin for AutoCAD 2015-2027 and ZWCAD 2017-2026. It aut
 
 ## Installation
 
-1. Download the latest `BPP-v*-AutoCAD2027.zip` from **Releases** on the right side of this page.
-2. Extract it to a permanent folder, e.g. `D:\CADPlugins\BPP\` (do not move it afterwards or copy only a single DLL — keep all files in the folder).
-3. Start AutoCAD 2027, type `NETLOAD`, and select `BPP.dll` in that folder.
-
-> On the first NETLOAD, Windows may warn that the file came from the internet: right-click `BPP.dll` → Properties → check "Unblock", then load it again.
+Install： using the BPP batch printing installer.
 
 ## License
 
@@ -84,11 +80,7 @@ BPP 是一款 AutoCAD 批量打印插件：自动识别图纸中的图框，一�
 
 ## 安装
 
-1. 从本页右侧 **Releases** 下载最新的 `BPP-v*-AutoCAD2027.zip`。
-2. 解压到一个固定文件夹，例如 `D:\CADPlugins\BPP\`(解压后不要移动或只拷贝单个 DLL，文件夹里的全部文件都要保留)。
-3. 打开 AutoCAD 2027，输入 `NETLOAD`，选择文件夹里的 `BPP.dll`。
-
-> 首次 NETLOAD 时 Windows 可能提示"来自网络的文件"：在 `BPP.dll` 上右键 → 属性 → 勾选"解除锁定"后再加载。
+使用 BPP批量打印安装器 进行安装.
 
 ## 授权
 
