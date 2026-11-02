@@ -1,10 +1,10 @@
-# BPP Batch Plot Plugin 批量打印插件 (for AutoCAD 2015-2027，中望ZWCAD 2017-2026，浩辰GstarCAD 2017-2027)
+<a id="english"></a>
 
-[English](#bpp-batch-plot-plugin-for-AutoCAD 2015-2027，ZWCAD 2017-2026，GstarCAD 2017-2027) | [中文](#bpp-批量打印插件适用于-AutoCAD 2015-2027，中望ZWCAD 2017-2026，浩辰GstarCAD 2017-2027)
+# BPP Batch Plot Plugin (for AutoCAD 2015-2027，ZWCAD 2017-2026，GstarCAD 2017-2027；)
 
-Industry first: Smart multi-process background plotting
+[English](#english) | [中文](#chinese)
 
-BPP is a batch plotting plugin for AutoCAD 2015-2027 and ZWCAD 2017-2026. It automatically detects drawing frames, plots all sheets in model space and every layout in order to PDF, image files, or directly to a printer in one run, and can batch-process multiple DWG files at once.
+BPP is a batch plotting plugin for AutoCAD. It automatically detects drawing frames, plots all sheets in model space and every layout in order to PDF, image files, or directly to a printer in one run, and can batch-process multiple DWG files at once.
 
 > This plugin is a third-party tool.
 
@@ -22,6 +22,7 @@ BPP is a batch plotting plugin for AutoCAD 2015-2027 and ZWCAD 2017-2026. It aut
 
 | Item | Requirement |
 |---|---|
+|AutoCAD 2015-2027，ZWCAD 2017-2026，2017-2027 GstarCAD； |
 | OS | Windows 10 / 11 64-bit |
 
 ## Installation
@@ -45,6 +46,9 @@ The plugin stops working automatically when the trial license expires. Licenses 
 **Flagged or blocked by antivirus?**
 Download only from Releases on this page and verify the SHA256 checksum of the zip (listed in each Release's notes); once confirmed, add the plugin folder to your antivirus trusted list.
 
+## Contact
+
+- Author: David-Lin
 
 ## License Agreement
 
@@ -52,9 +56,9 @@ By using this plugin you agree to the [License Agreement](使用协议.md) (bili
 
 ---
 
-# BPP 批量打印插件（适用于 AutoCAD 2015-2027，中望 ZWCAD 2017-2026）
+<a id="chinese"></a>
 
-全网首发功能：新增“智能多进程后台出图”
+# BPP 批量打印插件（适用于 AutoCAD 2015-2027，中望ZWCAD 2017-2026，浩辰GstarCAD 2017-2027）
 
 BPP 是一款 AutoCAD 批量打印插件：自动识别图纸中的图框，一次性把模型空间和各布局里的全部图纸按顺序打印成 PDF、图片或直接送打印机，并支持多个 DWG 文件一起批量处理。
 
@@ -76,11 +80,12 @@ BPP 是一款 AutoCAD 批量打印插件：自动识别图纸中的图框，一�
 
 | 项目 | 要求 |
 |---|---|
+| AutoCAD 2015-2027，中望ZWCAD 2017-2026，2017-2027浩辰GstarCAD； |
 | 系统 | Windows 10 / 11 64 位 |
 
 ## 安装
 
-使用 BPP批量打印安装器 进行安装.
+使用 BPP批量打印安装器 进行安装；
 
 ## 授权
 
@@ -97,6 +102,7 @@ BPP 是一款 AutoCAD 批量打印插件：自动识别图纸中的图框，一�
 
 ## 常见问题
 问题反馈QQ群 1128913966
+
 **杀毒软件报毒 / 拦截？**
 请从本页 Releases 下载，并核对压缩包的 SHA256 校验值(见每个 Release 的说明)；确认无误后可将插件文件夹加入杀毒软件信任列表。
 
